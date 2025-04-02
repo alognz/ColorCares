@@ -1,0 +1,7 @@
+.info-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5%;
+    align-items: stretch;
+}
