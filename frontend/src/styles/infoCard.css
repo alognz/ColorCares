@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+    width: 100%; 
+    padding: 15px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.emoji, .fact, .desc, .ref {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.emoji {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.fact {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px; 
+}
+
+.ref {
+    font-weight: 300;
+    font-size: 12px;
+}

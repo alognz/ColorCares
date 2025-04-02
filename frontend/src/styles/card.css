@@ -1,0 +1,17 @@
+.outline {
+    background-color: #FAF9F6;
+    border-style: solid;
+    border-color: #A67A5B;
+    border-radius: 25px;
+    min-width: 300px; /* Ensures a minimum width */
+    min-height: 250px; /* Ensures a minimum height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distributes content evenly */
+    align-items: center; /* Centers content */
+    text-align: center; /* Centers text */
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    overflow: hidden; /* Prevents overflow */
+    flex-grow: 1; /* Makes all cards stretch to the largest one */
+}
